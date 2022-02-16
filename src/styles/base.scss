@@ -1,10 +1,10 @@
 :root {
-  --color1: #eeeadf;
-  --color2: #313026;
-  --color3: #6a3e2e;
-  --color4: #a34c37;
-  --color5: #dd5a40;
-  --color6: #bbb6df;
+  --color1: #B9EBFF;
+  --color2: #000000;
+  --color3: #6CA9C2;
+  --color4: #000000;
+  --color5: #dd5e40;
+  --color6: #BBB6DF;
   --fg-dark: #ffffff;
   --font1: 'Fira Sans Condensed', sans-serif;
   --font2: 'Special Elite', cursive;
@@ -31,7 +31,7 @@ h6 {
   margin-bottom: 0.5em;
 }
 #header {
-  background-color: var(--color3);
+  background-color: var(--color3);  
   color: var(--fg-dark);
   min-height: 2em;
 }
@@ -110,26 +110,16 @@ h6 {
   flex-direction: row;
   gap: 10px;
   margin: 2em auto;
-  width: 100%;
-  justify-content: center;
+  width: 100%;  
+  justify-content: center;  
 }
 .links ul li {
   list-style: none;
 }
 img.logo {
-  filter: drop-shadow(0px 0px 2px var(--color4));
+  filter: drop-shadow(0px 0px 2px var(--color4));  
 }
 img.logo:hover {
   filter: drop-shadow(2px 2px 2px var(--color5));
 }
-
-.list-of-activities {
-}
-.activities-preview {
-}
-.Activities-picture {
-  width: 200px;
-  height: 200px;
-}
-.description {
-}
+    
