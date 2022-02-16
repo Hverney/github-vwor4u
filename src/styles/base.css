@@ -3,7 +3,7 @@
   --color2: #000000;
   --color3: #6CA9C2;
   --color4: #000000;
-  --color5: #dd5e40;
+  --color5: #000000;
   --color6: #BBB6DF;
   --fg-dark: #ffffff;
   --font1: 'Fira Sans Condensed', sans-serif;
@@ -122,4 +122,41 @@ img.logo {
 img.logo:hover {
   filter: drop-shadow(2px 2px 2px var(--color5));
 }
-    
+.list-of-photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+  
+.photo-prwview{
+   border: 1px solid #000000;
+   padding: 0.5em;
+}
+.photo-prwview .photo-picture{
+  width: 100%;
+  height: 100px;
+  background-color: #535353;
+}
+.photo-prwview .description{
+  display: block;
+  font-size: 0.7em;
+  padding-top: 0.5em;
+}
+
+
+.photo-detail{
+ display: grid;
+ grid-template-columns: 300px 1fr;
+ gap: 1em;
+ 
+}
+.photo-detail .photo-picture{
+ width: 100%;
+ height: 400px;
+ background-color: #535353;
+}
+.photo-detail .description{
+ display: block;
+ font-size: 1em;
+ padding-top: 0.5em;
+}
