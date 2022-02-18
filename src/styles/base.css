@@ -6,8 +6,8 @@
   --color5: #ffffff;
   --color6: #BBB6DF;
   --fg-dark: #ffffff;
-  --font1: 'Fira Sans Condensed', sans-serif;
-  --font2: 'Special Elite', cursive;
+  --font1: 'Arial';
+  --font2: 'Roboto Slab';
 }
 *,
 body {
